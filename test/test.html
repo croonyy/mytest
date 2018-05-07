@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <title>龙总傻帽</title>
     <!-- author:yann  -->
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <style>
+    #a1{
+    	animation:myfirst 2s infinite;
+    		}
+    	
+    	@keyframes myfirst{
+		0%  {background:red;
+					font-size: 10px;
+		
+			    }
+		50%  {background:yellow;
+				  font-size: 20px;
+				  }
+		100%  {background:red;
+				  font-size: 10px;
+				  }
+				  				  
+		}
+        
+    </style>
 </head>
+    
 <body>
- <p1>龙总就是个大傻帽！</p1>
+ <p1 id=a1>龙总就是个大傻帽！</p1>
 </body>
 </html>
